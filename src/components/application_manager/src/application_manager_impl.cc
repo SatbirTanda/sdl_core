@@ -3957,6 +3957,8 @@ mobile_apis::AppHMIType::eType ApplicationManagerImpl::StringToAppHMIType(
     return mobile_apis::AppHMIType::MESSAGING;
   } else if ("NAVIGATION" == str) {
     return mobile_apis::AppHMIType::NAVIGATION;
+  } else if ("PROJECTION" == str) {
+    return mobile_apis::AppHMIType::PROJECTION;
   } else if ("INFORMATION" == str) {
     return mobile_apis::AppHMIType::INFORMATION;
   } else if ("SOCIAL" == str) {
